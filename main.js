@@ -33,3 +33,5 @@ switch (sign) {
     default:
         console.error(sign + " - не є знаком арифметичної операції.");
 }
+if (result !== undefined)
+    alert(`${operand1} ${sign} ${operand2} = ${result}`);
